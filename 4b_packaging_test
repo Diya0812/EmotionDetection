@@ -1,0 +1,19 @@
+running sdist
+running egg_info
+creating EmotionDetection.egg-info
+writing EmotionDetection.egg-info/PKG-INFO
+writing dependency_links to EmotionDetection.egg-info/dependency_links.txt
+writing top-level names to EmotionDetection.egg-info/top_level.txt
+writing manifest file 'EmotionDetection.egg-info/SOURCES.txt'
+reading manifest file 'EmotionDetection.egg-info/SOURCES.txt'
+writing manifest file 'EmotionDetection.egg-info/SOURCES.txt'
+creating EmotionDetection-1.0
+creating EmotionDetection-1.0/EmotionDetection
+creating EmotionDetection-1.0/EmotionDetection.egg-info
+copying files to EmotionDetection-1.0...
+copying setup.py -> EmotionDetection-1.0
+copying EmotionDetection/emotion_detection.py -> EmotionDetection-1.0/EmotionDetection
+Writing EmotionDetection-1.0/setup.cfg
+creating dist
+Creating tar archive
+removing 'EmotionDetection-1.0' (and everything under it)
