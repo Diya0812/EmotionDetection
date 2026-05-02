@@ -11,8 +11,13 @@ def home():
 def emotion_detector_route():
     text_to_analyze = request.args.get('textToAnalyze')
 
+    # 🔴 Error handling for blank input
+    if not text_to_analyze:
+        return "Invalid input! Please enter some text."
+
     response = emotion_detector(text_to_analyze)
 
+    # 🔴 Error handling for API response
     if response['dominant_emotion'] is None:
         return "Invalid input! Please try again."
 
