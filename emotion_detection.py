@@ -17,6 +17,7 @@ def emotion_detector(text_to_analyze):
 
     response = requests.post(url, headers=headers, json=input_json)
 
+    # 🔴 Error handling for blank input
     if response.status_code == 400:
         return {
             "anger": None,
